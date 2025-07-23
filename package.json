@@ -4,7 +4,8 @@
   "description": "this is the users api ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sefiw21/express-backend/issues"
   },
-  "homepage": "https://github.com/sefiw21/express-backend#readme"
+  "homepage": "https://github.com/sefiw21/express-backend#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
